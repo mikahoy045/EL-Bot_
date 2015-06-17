@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<object type="TAForm" name="Form1">
+	<properties>
+		<property name="Left" vt="Int16">198</property>
+		<property name="Top" vt="Int16">134</property>
+		<property name="Width" vt="Int16">627</property>
+		<property name="Height" vt="Int16">476</property>
+		<property name="Caption" vt="String">East Legend Bot by Mikah</property>
+		<property name="Color" vt="Ident">clBtnFace</property>
+		<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+		<property name="Font.Color" vt="Ident">clWindowText</property>
+		<property name="Font.Height" vt="Int8">-11</property>
+		<property name="Font.Name" vt="String">MS Sans Serif</property>
+		<property name="Font.Style" vt="Set"/>
+		<property name="Menu" vt="Ident">AMenu1</property>
+		<property name="OldCreateOrder" vt="True">True</property>
+		<property name="Position" vt="Ident">poDesktopCenter</property>
+		<property name="Visible" vt="True">True</property>
+		<property name="Style" vt="Int32">-1798701056</property>
+		<property name="ExStyle" vt="Int16">256</property>
+		<property name="Version" vt="String">1.04</property>
+		<property name="FormOptOnEvent" vt="False">False</property>
+		<property name="FormOptExpVars" vt="False">False</property>
+		<property name="FormOptPopulate" vt="False">False</property>
+		<property name="FormOptVarsForSet" vt="False">False</property>
+		<property name="FormOptIndentChar" vt="Int8">0</property>
+		<property name="FormOptIndentCount" vt="Int8">1</property>
+		<property name="FormOptIndentInit" vt="Int8">0</property>
+		<property name="FormOptVarScope" vt="Int8">1</property>
+		<property name="Resizing" vt="Set"/>
+		<property name="PixelsPerInch" vt="Int8">96</property>
+		<property name="TextHeight" vt="Int8">13</property>
+	</properties>
+	<components>
+		<object type="TAMenu" name="AMenu1">
+			<properties>
+				<property name="Left" vt="Int8">0</property>
+				<property name="Top" vt="Int8">0</property>
+				<property name="Width" vt="Int8">28</property>
+				<property name="Height" vt="Int8">28</property>
+				<property name="Associate" vt="Ident">Owner</property>
+				<property name="WrappedName" vt="String">MainMenu1</property>
+			</properties>
+			<components/>
+		</object>
+		<object type="TATab" name="Tab1">
+			<properties>
+				<property name="Left" vt="Int8">8</property>
+				<property name="Top" vt="Int8">8</property>
+				<property name="Width" vt="Int16">593</property>
+				<property name="Height" vt="Int16">393</property>
+				<property name="ActivePage" vt="Ident">TabSheet1</property>
+				<property name="Font.Charset" vt="Ident">DEFAULT_CHARSET</property>
+				<property name="Font.Color" vt="Ident">clWindowText</property>
+				<property name="Font.Height" vt="Int8">-11</property>
+				<property name="Font.Name" vt="String">Arial</property>
+				<property name="Font.Style" vt="Set"/>
+				<property name="ParentFont" vt="False">False</property>
+				<property name="TabOrder" vt="Int8">0</property>
+				<property name="CtrlStyle" vt="Int32">1409482752</property>
+				<property name="CtrlExStyle" vt="Int8">0</property>
+				<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+			</properties>
+			<components>
+				<object type="TTabSheet" name="TabSheet1">
+					<properties>
+						<property name="Caption" vt="String">Umum</property>
+					</properties>
+					<components>
+						<object type="TAEdit" name="layar_info">
+							<properties>
+								<property name="Left" vt="Int8">8</property>
+								<property name="Top" vt="Int8">12</property>
+								<property name="Width" vt="Int16">561</property>
+								<property name="Height" vt="Int16">209</property>
+								<property name="Lines.Strings" vt="List">
+									<list>
+										<li vt="String"/>
+									</list>
+								</property>
+								<property name="TabOrder" vt="Int8">0</property>
+								<property name="CtrlStyle" vt="Int32">1345523908</property>
+								<property name="CtrlExStyle" vt="Int16">512</property>
+								<property name="Resizing" vt="Set"/>
+							</properties>
+							<components/>
+						</object>
+						<object type="TAButton" name="stop_b">
+							<properties>
+								<property name="Left" vt="Int8">108</property>
+								<property name="Top" vt="Int16">325</property>
+								<property name="Width" vt="Int8">81</property>
+								<property name="Height" vt="Int8">25</property>
+								<property name="Caption" vt="String">Berhenti</property>
+								<property name="TabOrder" vt="Int8">1</property>
+								<property name="Color" vt="Ident">clBtnFace</property>
+								<property name="CtrlStyle" vt="Int32">1342373888</property>
+								<property name="CtrlExStyle" vt="Int8">0</property>
+								<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+							</properties>
+							<components/>
+						</object>
+						<object type="TAButton" name="start_b">
+							<properties>
+								<property name="Left" vt="Int8">12</property>
+								<property name="Top" vt="Int16">325</property>
+								<property name="Width" vt="Int8">81</property>
+								<property name="Height" vt="Int8">25</property>
+								<property name="Caption" vt="String">Mulai</property>
+								<property name="TabOrder" vt="Int8">2</property>
+								<property name="Color" vt="Ident">clBtnFace</property>
+								<property name="CtrlStyle" vt="Int32">1342373888</property>
+								<property name="CtrlExStyle" vt="Int8">0</property>
+								<property name="Resizing" vt="Set">DockWidth, DockHeight</property>
+							</properties>
+							<components/>
+						</object>
+					</components>
+				</object>
+				<object type="TTabSheet" name="TabSheet2">
+					<properties>
+						<property name="Caption" vt="String">Pilihan</property>
+					</properties>
+					<components>
+						<object type="TAGroup" name="Group1">
+							<properties>
+								<property name="Left" vt="Int8">12</property>
+								<property name="Top" vt="Int8">5</property>
+								<property name="Width" vt="Int16">561</property>
+								<property name="Height" vt="Int16">153</property>
+								<property name="CtrlStyle" vt="Int32">1342308359</property>
+								<property name="CtrlExStyle" vt="Int8">0</property>
+								<property name="TabOrder" vt="Int8">0</property>
+								<property name="Resizing" vt="Set"/>
+							</properties>
+							<components/>
+						</object>
+						<object type="TAGroup" name="Group2">
+							<properties>
+								<property name="Left" vt="Int8">12</property>
+								<property name="Top" vt="Int16">173</property>
+								<property name="Width" vt="Int16">561</property>
+								<property name="Height" vt="Int16">177</property>
+								<property name="CtrlStyle" vt="Int32">1342308359</property>
+								<property name="CtrlExStyle" vt="Int8">0</property>
+								<property name="TabOrder" vt="Int8">1</property>
+								<property name="Resizing" vt="Set"/>
+							</properties>
+							<components/>
+						</object>
+					</components>
+				</object>
+			</components>
+		</object>
+		<object type="TMainMenu" name="MainMenu1">
+			<properties/>
+			<components>
+				<object type="TAMenuItem" name="MenuItem2">
+					<properties>
+						<property name="Caption" vt="String">&amp;File</property>
+					</properties>
+					<components>
+						<object type="TMenuItem" name="MenuItem5">
+							<properties>
+								<property name="Caption" vt="String">Keluar</property>
+							</properties>
+							<components/>
+						</object>
+					</components>
+				</object>
+				<object type="TAMenuItem" name="MenuItem1">
+					<properties>
+						<property name="Caption" vt="String">&amp;Bantuan</property>
+					</properties>
+					<components>
+						<object type="TMenuItem" name="MenuItem3">
+							<properties>
+								<property name="Caption" vt="String">Tentang</property>
+							</properties>
+							<components/>
+						</object>
+						<object type="TMenuItem" name="MenuItem4">
+							<properties>
+								<property name="Caption" vt="String">Hubungi Kami</property>
+							</properties>
+							<components/>
+						</object>
+					</components>
+				</object>
+			</components>
+		</object>
+	</components>
+</object>
